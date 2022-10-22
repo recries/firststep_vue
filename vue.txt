@@ -1,0 +1,48 @@
+뷰 버전 확인 vue --version
+
+뷰 설치 npm install -g -vue
+
+Babe - 구형 인터넷으로도 사용 가능l
+TypeScript 
+Prgressive Web App (PWA) Support - 모바일처럼 웹을 구현해주는 기술
+Router - 메뉴를 구성하고 클릭시 화면 이동을 구현해주는 모듈
+Vuex - 모든 뷰 컴포넌트 내에서 공통으로 접근 가능한 저장소을 만들어서 저장하고 상태관리도 가능하게 해주는 것
+CSS pre-processors - 
+Linter / Formatter - 자바 스크립트 코딩 문법 규칙
+Unit Testing - 모듈 테스트
+E2E Testing - 
+
+Use history mode for router? - 상당 url에 #을 안쓰고 히스토리 모드 
+
+자바스크립트 문법 체크 - ESLint
+> ESLint with error prevention only 
+  ESLint + Airbnb config - Airbnb 코딩 규칙 사용
+  ESLint + Standard config - 자바스크립트에서 기본적으로 가지고있는 규칙을 쓰는것
+  ESLint + Prettier - vscode에서 확장한 Prettier을 쓰겠냐?
+
+자바스크립트 문법 확인 언제 하는지
+>(*) Lint on save - 저장할때마다
+ ( ) Lint and fix on commit
+
+? Where do you prefer placing config for Babel, ESLint, etc.? (Use arrow keys) -  설정파일은 따로 할지
+> In dedicated config files 
+  In package.json - 하나로 관리
+
+
+
+.prettierrc 생성 
+{
+  "semi": false, --세미클론 안쓰겠다
+  "bracketSpacing": true,  
+  "singleQuote": true,
+  "useTabs": false,
+  "printWidth": 80 
+}
+ㄴ package.json 열고  eslintConfig 밑 "rules"에 {"space-before-function-paren": "off"}
+				ㄴ함수 생성시 기본 공백을 만드는것을 안쓴다는것
+
+prefetch - 당장쓸것은 아니지만 미래에 쓸 것(캐시에 저장)
+그래서 매우 빠르게 쓸 수 있다
+
+DataBinding 
+단방향 바인딩
